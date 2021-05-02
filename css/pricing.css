@@ -1,0 +1,21 @@
+.accodion{
+    /* width: 100%; */
+    margin: 0px 200px;
+    border: 1px solid black;
+}
+.header-acc p{
+    background-color: #1eb2a6;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.accodion .desc-acc p{
+    display: none;
+} 
+.accodion .desc-acc p.active{
+    display: block;
+} 
+.desc-acc p{
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: white;
+}

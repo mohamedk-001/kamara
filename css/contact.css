@@ -1,0 +1,75 @@
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.contact-map{
+    /* background-color: black; */
+    width: 45%;
+    height: 100vh;
+}
+.contact .contact-map iframe{
+    height: 100vh;
+}
+.contact-form {
+    background-color: white;
+    width: 45%;
+    padding: 20px 10px;
+}
+.contact-form form {
+    /* width: 50%; */
+    padding: 0px 20px;
+
+}
+.contact-form form .form-group{
+    margin: 10px 0px;
+
+}
+.contact-form form .form-group label{
+    color: #1eb2ab;
+}
+.contact-form form .form-group .form-control{
+    padding: 10px 13px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid #1eb2ab;
+    font-size: 1rem;
+    margin: 10px 0px;
+
+}
+
+.submit{
+    outline: none;
+    border: none;
+    background-color: #1eb2ab;
+    padding: 12px 18px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.submit:hover{
+    background-color: white;
+    color: #1eb2ab;
+
+    transform: all .5s;
+}
+@media (max-width:800px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 30px;
+
+    }
+    .contact-map{
+        height: 100vh;
+        width: 95%;
+    }
+    .contact-form {
+        background-color: white;
+        width: 95%;
+    }
+}
